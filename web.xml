@@ -1,0 +1,23 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+  <welcome-file-list>
+  	<welcome-file>
+  	input.html
+  	</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>mybook</servlet-name>
+  <jsp-file>/search.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>mybook</servlet-name>
+  <url-pattern>/accept</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
